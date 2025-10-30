@@ -41,6 +41,7 @@ public class UserInteraction3 {
 	WebElement paswd = driver.findElement(By.name("password"));
 	WebElement submit = driver.findElement(By.name("submit"));
 	
+	@SuppressWarnings("unused")
 	public  void getUsername(String User) {
 		boolean actResult = true;
 		try {
@@ -57,6 +58,7 @@ public class UserInteraction3 {
  
 
 	public void getPassword(String pwd) {
+		
 		boolean actResult = true;
 		try {
 			wait.until(ExpectedConditions.visibilityOf(username));

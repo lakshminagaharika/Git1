@@ -173,7 +173,7 @@ WebElement logintext=driver.findElement(By.xpath("//span[normalize-space()='Ente
 //				Assert.assertEquals(errtext.getText(),"Enter your userName and password correct");
 //				
 //			}	
-			boolean s1 = obj.run(expectedResult);
+			boolean s1 = Object.run(expectedResult);
 			Assert.assertTrue(s1);
 		
 		}
